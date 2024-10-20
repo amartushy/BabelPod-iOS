@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E0E7A542CC57C09008652ED /* ListeningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0E7A522CC57C09008652ED /* ListeningView.swift */; };
+		2E0E7A5C2CC57C0F008652ED /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0E7A552CC57C0F008652ED /* AccountView.swift */; };
+		2E0E7A5D2CC57C0F008652ED /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0E7A562CC57C0F008652ED /* HomeView.swift */; };
+		2E0E7A5E2CC57C0F008652ED /* LanguageSelectionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0E7A572CC57C0F008652ED /* LanguageSelectionSheet.swift */; };
+		2E0E7A5F2CC57C0F008652ED /* OpenAIViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0E7A582CC57C0F008652ED /* OpenAIViewModel.swift */; };
+		2E0E7A602CC57C0F008652ED /* TranscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0E7A592CC57C0F008652ED /* TranscriptionView.swift */; };
+		2E0E7A612CC57C0F008652ED /* TranslationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0E7A5A2CC57C0F008652ED /* TranslationViewModel.swift */; };
+		2E0E7A6A2CC57E44008652ED /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E7A692CC57E44008652ED /* GoogleService-Info.plist */; };
+		2E0E7A6C2CC57E68008652ED /* CurrentUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0E7A6B2CC57E68008652ED /* CurrentUserViewModel.swift */; };
+		2E0E7A6F2CC57EAC008652ED /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 2E0E7A6E2CC57EAC008652ED /* GoogleSignIn */; };
+		2E0E7A712CC57EAC008652ED /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2E0E7A702CC57EAC008652ED /* GoogleSignInSwift */; };
+		2EB621A12CC450F7000186FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EB621982CC450F7000186FB /* Preview Assets.xcassets */; };
+		2EB621A22CC450F7000186FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EB6219C2CC450F7000186FB /* Assets.xcassets */; };
+		2EB621A32CC450F7000186FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB6219A2CC450F7000186FB /* AppDelegate.swift */; };
+		2EB621A42CC450F7000186FB /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB6219B2CC450F7000186FB /* AppManager.swift */; };
+		2EB621A62CC450F7000186FB /* MotherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB6219E2CC450F7000186FB /* MotherView.swift */; };
+		2EB621A72CC450F7000186FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB6219F2CC450F7000186FB /* SceneDelegate.swift */; };
+		2EB621BB2CC452DC000186FB /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EB621BA2CC452DC000186FB /* Colors.xcassets */; };
+		2EB621F72CC46034000186FB /* OpenAI in Frameworks */ = {isa = PBXBuildFile; productRef = 2EB621F62CC46034000186FB /* OpenAI */; };
+		2EB621FA2CC46BEC000186FB /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 2EB621F92CC46BEC000186FB /* Lottie */; };
+		2EB622102CC49CDB000186FB /* CameraPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB622072CC49CDB000186FB /* CameraPicker.swift */; };
+		2EB622112CC49CDB000186FB /* LandmarkDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB622082CC49CDB000186FB /* LandmarkDetailsView.swift */; };
+		2EB622182CC49D40000186FB /* ImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB622172CC49D40000186FB /* ImageViewModel.swift */; };
+		2EB6221B2CC49E7F000186FB /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 2EB6221A2CC49E7F000186FB /* FirebaseAuth */; };
+		2EB6221D2CC49E7F000186FB /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 2EB6221C2CC49E7F000186FB /* FirebaseFirestore */; };
+		2EB6221F2CC49E7F000186FB /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 2EB6221E2CC49E7F000186FB /* FirebaseStorage */; };
+		2EB622212CC4B686000186FB /* TranslatedMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB622202CC4B686000186FB /* TranslatedMenuView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E0E7A522CC57C09008652ED /* ListeningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListeningView.swift; sourceTree = "<group>"; };
+		2E0E7A552CC57C0F008652ED /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		2E0E7A562CC57C0F008652ED /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		2E0E7A572CC57C0F008652ED /* LanguageSelectionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageSelectionSheet.swift; sourceTree = "<group>"; };
+		2E0E7A582CC57C0F008652ED /* OpenAIViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIViewModel.swift; sourceTree = "<group>"; };
+		2E0E7A592CC57C0F008652ED /* TranscriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranscriptionView.swift; sourceTree = "<group>"; };
+		2E0E7A5A2CC57C0F008652ED /* TranslationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationViewModel.swift; sourceTree = "<group>"; };
+		2E0E7A692CC57E44008652ED /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2E0E7A6B2CC57E68008652ED /* CurrentUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserViewModel.swift; sourceTree = "<group>"; };
+		2EB6217D2CC44F4F000186FB /* BabelPod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabelPod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EB621982CC450F7000186FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2EB6219A2CC450F7000186FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2EB6219B2CC450F7000186FB /* AppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
+		2EB6219C2CC450F7000186FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2EB6219E2CC450F7000186FB /* MotherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotherView.swift; sourceTree = "<group>"; };
+		2EB6219F2CC450F7000186FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2EB621BA2CC452DC000186FB /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		2EB621EF2CC457AA000186FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2EB622072CC49CDB000186FB /* CameraPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPicker.swift; sourceTree = "<group>"; };
+		2EB622082CC49CDB000186FB /* LandmarkDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetailsView.swift; sourceTree = "<group>"; };
+		2EB622172CC49D40000186FB /* ImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewModel.swift; sourceTree = "<group>"; };
+		2EB622202CC4B686000186FB /* TranslatedMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslatedMenuView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		2EB621B42CC45116000186FB /* Core */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Core;
+			sourceTree = "<group>";
+		};
+		2EB621C52CC45540000186FB /* Onboarding */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		2EB621E82CC45790000186FB /* Fonts */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		2EB621FD2CC46C58000186FB /* Animations */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Animations;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EB6217A2CC44F4F000186FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EB621F72CC46034000186FB /* OpenAI in Frameworks */,
+				2EB6221D2CC49E7F000186FB /* FirebaseFirestore in Frameworks */,
+				2E0E7A712CC57EAC008652ED /* GoogleSignInSwift in Frameworks */,
+				2EB6221B2CC49E7F000186FB /* FirebaseAuth in Frameworks */,
+				2EB6221F2CC49E7F000186FB /* FirebaseStorage in Frameworks */,
+				2EB621FA2CC46BEC000186FB /* Lottie in Frameworks */,
+				2E0E7A6F2CC57EAC008652ED /* GoogleSignIn in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E0E7A532CC57C09008652ED /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				2E0E7A522CC57C09008652ED /* ListeningView.swift */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		2E0E7A5B2CC57C0F008652ED /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2E0E7A562CC57C0F008652ED /* HomeView.swift */,
+				2E0E7A572CC57C0F008652ED /* LanguageSelectionSheet.swift */,
+				2E0E7A582CC57C0F008652ED /* OpenAIViewModel.swift */,
+				2E0E7A592CC57C0F008652ED /* TranscriptionView.swift */,
+				2E0E7A5A2CC57C0F008652ED /* TranslationViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2E0E7A622CC57C13008652ED /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				2E0E7A552CC57C0F008652ED /* AccountView.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		2EB621742CC44F4F000186FB = {
+			isa = PBXGroup;
+			children = (
+				2E0E7A692CC57E44008652ED /* GoogleService-Info.plist */,
+				2EB621A02CC450F7000186FB /* BabelPod */,
+				2EB6217E2CC44F4F000186FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2EB6217E2CC44F4F000186FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EB6217D2CC44F4F000186FB /* BabelPod.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2EB621992CC450F7000186FB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2EB621982CC450F7000186FB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2EB621A02CC450F7000186FB /* BabelPod */ = {
+			isa = PBXGroup;
+			children = (
+				2EB621EF2CC457AA000186FB /* Info.plist */,
+				2EB6219A2CC450F7000186FB /* AppDelegate.swift */,
+				2EB6219F2CC450F7000186FB /* SceneDelegate.swift */,
+				2EB6219B2CC450F7000186FB /* AppManager.swift */,
+				2EB6219E2CC450F7000186FB /* MotherView.swift */,
+				2E0E7A6B2CC57E68008652ED /* CurrentUserViewModel.swift */,
+				2EB621C52CC45540000186FB /* Onboarding */,
+				2EB6220F2CC49CDB000186FB /* App */,
+				2EB621E82CC45790000186FB /* Fonts */,
+				2EB621B42CC45116000186FB /* Core */,
+				2EB621FD2CC46C58000186FB /* Animations */,
+				2EB6219C2CC450F7000186FB /* Assets.xcassets */,
+				2EB621BA2CC452DC000186FB /* Colors.xcassets */,
+				2EB621992CC450F7000186FB /* Preview Content */,
+			);
+			path = BabelPod;
+			sourceTree = "<group>";
+		};
+		2EB622092CC49CDB000186FB /* Image Identification */ = {
+			isa = PBXGroup;
+			children = (
+				2EB622072CC49CDB000186FB /* CameraPicker.swift */,
+				2EB622172CC49D40000186FB /* ImageViewModel.swift */,
+				2EB622082CC49CDB000186FB /* LandmarkDetailsView.swift */,
+				2EB622202CC4B686000186FB /* TranslatedMenuView.swift */,
+			);
+			path = "Image Identification";
+			sourceTree = "<group>";
+		};
+		2EB6220F2CC49CDB000186FB /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2E0E7A5B2CC57C0F008652ED /* Home */,
+				2E0E7A532CC57C09008652ED /* Audio */,
+				2E0E7A622CC57C13008652ED /* Account */,
+				2EB622092CC49CDB000186FB /* Image Identification */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2EB6217C2CC44F4F000186FB /* BabelPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EB6218B2CC44F51000186FB /* Build configuration list for PBXNativeTarget "BabelPod" */;
+			buildPhases = (
+				2EB621792CC44F4F000186FB /* Sources */,
+				2EB6217A2CC44F4F000186FB /* Frameworks */,
+				2EB6217B2CC44F4F000186FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				2EB621B42CC45116000186FB /* Core */,
+				2EB621C52CC45540000186FB /* Onboarding */,
+				2EB621E82CC45790000186FB /* Fonts */,
+				2EB621FD2CC46C58000186FB /* Animations */,
+			);
+			name = BabelPod;
+			packageProductDependencies = (
+				2EB621F62CC46034000186FB /* OpenAI */,
+				2EB621F92CC46BEC000186FB /* Lottie */,
+				2EB6221A2CC49E7F000186FB /* FirebaseAuth */,
+				2EB6221C2CC49E7F000186FB /* FirebaseFirestore */,
+				2EB6221E2CC49E7F000186FB /* FirebaseStorage */,
+				2E0E7A6E2CC57EAC008652ED /* GoogleSignIn */,
+				2E0E7A702CC57EAC008652ED /* GoogleSignInSwift */,
+			);
+			productName = BabelPod;
+			productReference = 2EB6217D2CC44F4F000186FB /* BabelPod.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2EB621752CC44F4F000186FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					2EB6217C2CC44F4F000186FB = {
+						CreatedOnToolsVersion = 16.0;
+						LastSwiftMigration = 1600;
+					};
+				};
+			};
+			buildConfigurationList = 2EB621782CC44F4F000186FB /* Build configuration list for PBXProject "BabelPod" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2EB621742CC44F4F000186FB;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				2EB621F52CC46034000186FB /* XCRemoteSwiftPackageReference "OpenAI" */,
+				2EB621F82CC46BEC000186FB /* XCRemoteSwiftPackageReference "lottie-spm" */,
+				2EB622192CC49E7F000186FB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				2E0E7A6D2CC57EAC008652ED /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2EB6217E2CC44F4F000186FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EB6217C2CC44F4F000186FB /* BabelPod */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2EB6217B2CC44F4F000186FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EB621BB2CC452DC000186FB /* Colors.xcassets in Resources */,
+				2EB621A12CC450F7000186FB /* Preview Assets.xcassets in Resources */,
+				2EB621A22CC450F7000186FB /* Assets.xcassets in Resources */,
+				2E0E7A6A2CC57E44008652ED /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EB621792CC44F4F000186FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EB621A32CC450F7000186FB /* AppDelegate.swift in Sources */,
+				2EB621A42CC450F7000186FB /* AppManager.swift in Sources */,
+				2EB622102CC49CDB000186FB /* CameraPicker.swift in Sources */,
+				2EB622112CC49CDB000186FB /* LandmarkDetailsView.swift in Sources */,
+				2E0E7A5C2CC57C0F008652ED /* AccountView.swift in Sources */,
+				2E0E7A5D2CC57C0F008652ED /* HomeView.swift in Sources */,
+				2E0E7A5E2CC57C0F008652ED /* LanguageSelectionSheet.swift in Sources */,
+				2E0E7A5F2CC57C0F008652ED /* OpenAIViewModel.swift in Sources */,
+				2E0E7A602CC57C0F008652ED /* TranscriptionView.swift in Sources */,
+				2E0E7A612CC57C0F008652ED /* TranslationViewModel.swift in Sources */,
+				2E0E7A6C2CC57E68008652ED /* CurrentUserViewModel.swift in Sources */,
+				2EB621A62CC450F7000186FB /* MotherView.swift in Sources */,
+				2EB622212CC4B686000186FB /* TranslatedMenuView.swift in Sources */,
+				2E0E7A542CC57C09008652ED /* ListeningView.swift in Sources */,
+				2EB622182CC49D40000186FB /* ImageViewModel.swift in Sources */,
+				2EB621A72CC450F7000186FB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2EB621892CC44F51000186FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2EB6218A2CC44F51000186FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2EB6218C2CC44F51000186FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BabelPod/Preview Content\"";
+				DEVELOPMENT_TEAM = T7J6GUYP6L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BabelPod/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We use your camera to analyze menu's";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We use this to transcribe your audio";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "We use this to transcribe your audio";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.orionsoftware.babelpod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2EB6218D2CC44F51000186FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BabelPod/Preview Content\"";
+				DEVELOPMENT_TEAM = T7J6GUYP6L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BabelPod/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We use your camera to analyze menu's";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We use this to transcribe your audio";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "We use this to transcribe your audio";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.orionsoftware.babelpod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EB621782CC44F4F000186FB /* Build configuration list for PBXProject "BabelPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EB621892CC44F51000186FB /* Debug */,
+				2EB6218A2CC44F51000186FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EB6218B2CC44F51000186FB /* Build configuration list for PBXNativeTarget "BabelPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EB6218C2CC44F51000186FB /* Debug */,
+				2EB6218D2CC44F51000186FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2E0E7A6D2CC57EAC008652ED /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+		2EB621F52CC46034000186FB /* XCRemoteSwiftPackageReference "OpenAI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MacPaw/OpenAI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.0;
+			};
+		};
+		2EB621F82CC46BEC000186FB /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.0;
+			};
+		};
+		2EB622192CC49E7F000186FB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2E0E7A6E2CC57EAC008652ED /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2E0E7A6D2CC57EAC008652ED /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		2E0E7A702CC57EAC008652ED /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2E0E7A6D2CC57EAC008652ED /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		2EB621F62CC46034000186FB /* OpenAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2EB621F52CC46034000186FB /* XCRemoteSwiftPackageReference "OpenAI" */;
+			productName = OpenAI;
+		};
+		2EB621F92CC46BEC000186FB /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2EB621F82CC46BEC000186FB /* XCRemoteSwiftPackageReference "lottie-spm" */;
+			productName = Lottie;
+		};
+		2EB6221A2CC49E7F000186FB /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2EB622192CC49E7F000186FB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		2EB6221C2CC49E7F000186FB /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2EB622192CC49E7F000186FB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		2EB6221E2CC49E7F000186FB /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2EB622192CC49E7F000186FB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2EB621752CC44F4F000186FB /* Project object */;
+}

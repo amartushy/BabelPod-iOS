@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>449759114668-s1t80413n8b88jnerufvek6t4nv5qn9s.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.449759114668-s1t80413n8b88jnerufvek6t4nv5qn9s</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBGEf1iAP5Ur32uZMOIHf2Idga-_MQXuQM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>449759114668</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.orionsoftware.babelpod</string>
+	<key>PROJECT_ID</key>
+	<string>babelpod-efbda</string>
+	<key>STORAGE_BUCKET</key>
+	<string>babelpod-efbda.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:449759114668:ios:ca898a8c6e980d187bf609</string>
+</dict>
+</plist>
